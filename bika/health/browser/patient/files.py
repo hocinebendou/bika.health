@@ -4,7 +4,6 @@ from plone.app.layout.globals.interfaces import IViewView
 from zope.interface import implements
 from bika.lims.browser.multifile import MultifileView
 
-
 class PatientMultifileView(MultifileView):
     implements(IFolderContentsView, IViewView)
 
