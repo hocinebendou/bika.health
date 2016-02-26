@@ -2,6 +2,10 @@ from bika.lims import bikaMessageFactory as _
 from plone.app.content.browser.interfaces import IFolderContentsView
 from plone.app.layout.globals.interfaces import IViewView
 from zope.interface import implements
+
+import sys
+print sys.path
+
 from bika.lims.browser.multifile import MultifileView
 
 class PatientMultifileView(MultifileView):
